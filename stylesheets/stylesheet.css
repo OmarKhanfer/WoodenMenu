@@ -1,0 +1,256 @@
+/* line 17, ../../../../../AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 7, ../sass/stylesheet.scss */
+.main-content {
+  background: url("/img/bg.png") no-repeat;
+  background-size: 100% 100%;
+  bottom: 0px;
+  padding: 30px 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+/* line 16, ../sass/stylesheet.scss */
+.stacked-papers {
+  border-bottom: 1px solid #e2e2e2;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-shadow: 0 5px 0 -4px white, 0 5px 0 -3px #e2e2e2, 0 11px 0 -8px white, 0 11px 0 -7px #e2e2e2;
+  -moz-box-shadow: 0 5px 0 -4px white, 0 5px 0 -3px #e2e2e2, 0 11px 0 -8px white, 0 11px 0 -7px #e2e2e2;
+  box-shadow: 0 5px 0 -4px white, 0 5px 0 -3px #e2e2e2, 0 11px 0 -8px white, 0 11px 0 -7px #e2e2e2;
+}
+
+/* line 27, ../sass/stylesheet.scss */
+.menu {
+  position: relative;
+  width: 210px;
+}
+/* line 29, ../sass/stylesheet.scss */
+.menu .menu__header {
+  background: url("/img/category-header.png") no-repeat;
+  color: #986618;
+  font-family: Rockwell;
+  font-size: 16px;
+  margin-left: -1px;
+  padding: 20px 0px 30px;
+  position: relative;
+  text-align: center;
+  text-shadow: 1px 1px 1px #f8e7cb;
+  width: 212px;
+  z-index: 40;
+}
+
+/* line 43, ../sass/stylesheet.scss */
+.menu-items {
+  background: white url("/img/pink-lines.png") repeat-y 10px;
+  border: solid #ddd;
+  border-width: 1px 1px 0px 1px;
+  margin: -6px 0px 0px;
+  padding: 0px;
+  position: relative;
+  width: 208px;
+  z-index: 2;
+}
+/* line 53, ../sass/stylesheet.scss */
+.menu-items li {
+  border-bottom: 1px solid #ddd;
+  color: #595f65;
+  font-family: arial;
+  font-size: 12px;
+  line-height: 40px;
+  list-style: none;
+  padding-left: 55px;
+}
+/* line 63, ../sass/stylesheet.scss */
+.menu-items li.technology:before {
+  background-position: -30px 0px;
+}
+/* line 63, ../sass/stylesheet.scss */
+.menu-items li.sport:before {
+  background-position: -60px 0px;
+}
+/* line 63, ../sass/stylesheet.scss */
+.menu-items li.fainance:before {
+  background-position: -90px 0px;
+}
+/* line 63, ../sass/stylesheet.scss */
+.menu-items li.education:before {
+  background-position: -120px 0px;
+}
+/* line 63, ../sass/stylesheet.scss */
+.menu-items li.furniture:before {
+  background-position: -150px 0px;
+}
+/* line 63, ../sass/stylesheet.scss */
+.menu-items li.home:before {
+  background-position: -180px 0px;
+}
+/* line 63, ../sass/stylesheet.scss */
+.menu-items li.construction:before {
+  background-position: -210px 0px;
+}
+/* line 63, ../sass/stylesheet.scss */
+.menu-items li.auto:before {
+  background-position: -240px 0px;
+}
+/* line 63, ../sass/stylesheet.scss */
+.menu-items li.wedding:before {
+  background-position: -270px 0px;
+}
+/* line 63, ../sass/stylesheet.scss */
+.menu-items li.travel:before {
+  background-position: -300px 0px;
+}
+/* line 63, ../sass/stylesheet.scss */
+.menu-items li.cafe:before {
+  background-position: -330px 0px;
+}
+/* line 63, ../sass/stylesheet.scss */
+.menu-items li.medical:before {
+  background-position: -360px 0px;
+}
+/* line 63, ../sass/stylesheet.scss */
+.menu-items li.food:before {
+  background-position: -390px 0px;
+}
+/* line 69, ../sass/stylesheet.scss */
+.menu-items li:hover {
+  color: #fff;
+  cursor: pointer;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZiYzI1NCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZhYWQ0MyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fbc254), color-stop(100%, #faad43));
+  background: -webkit-linear-gradient(#fbc254, #faad43);
+  background: -moz-linear-gradient(#fbc254, #faad43);
+  background: -o-linear-gradient(#fbc254, #faad43);
+  background: linear-gradient(#fbc254, #faad43);
+  -webkit-box-shadow: inset 0 2px 0px rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(201, 118, 28, 0.4);
+  -moz-box-shadow: inset 0 2px 0px rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(201, 118, 28, 0.4);
+  box-shadow: inset 0 2px 0px rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(201, 118, 28, 0.4);
+}
+/* line 78, ../sass/stylesheet.scss */
+.menu-items li:hover.technology:before {
+  background-position: -30px -30px;
+}
+/* line 78, ../sass/stylesheet.scss */
+.menu-items li:hover.sport:before {
+  background-position: -60px -30px;
+}
+/* line 78, ../sass/stylesheet.scss */
+.menu-items li:hover.fainance:before {
+  background-position: -90px -30px;
+}
+/* line 78, ../sass/stylesheet.scss */
+.menu-items li:hover.education:before {
+  background-position: -120px -30px;
+}
+/* line 78, ../sass/stylesheet.scss */
+.menu-items li:hover.furniture:before {
+  background-position: -150px -30px;
+}
+/* line 78, ../sass/stylesheet.scss */
+.menu-items li:hover.home:before {
+  background-position: -180px -30px;
+}
+/* line 78, ../sass/stylesheet.scss */
+.menu-items li:hover.construction:before {
+  background-position: -210px -30px;
+}
+/* line 78, ../sass/stylesheet.scss */
+.menu-items li:hover.auto:before {
+  background-position: -240px -30px;
+}
+/* line 78, ../sass/stylesheet.scss */
+.menu-items li:hover.wedding:before {
+  background-position: -270px -30px;
+}
+/* line 78, ../sass/stylesheet.scss */
+.menu-items li:hover.travel:before {
+  background-position: -300px -30px;
+}
+/* line 78, ../sass/stylesheet.scss */
+.menu-items li:hover.cafe:before {
+  background-position: -330px -30px;
+}
+/* line 78, ../sass/stylesheet.scss */
+.menu-items li:hover.medical:before {
+  background-position: -360px -30px;
+}
+/* line 78, ../sass/stylesheet.scss */
+.menu-items li:hover.food:before {
+  background-position: -390px -30px;
+}
+/* line 84, ../sass/stylesheet.scss */
+.menu-items li:before {
+  background: url(/img/icons.png);
+  content: "";
+  height: 30px;
+  left: 0px;
+  position: absolute;
+  margin: 5px 0px 0px 20px;
+  width: 29px;
+}
